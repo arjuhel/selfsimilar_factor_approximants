@@ -28,7 +28,7 @@ In [2], it is suggested that the problem can be rewritten into:<br>
     B_3 = n_1 * A_1^3 + n_2 * A_2^3 + n_3 * A_3^3 + n_4 * A_4^3 
     B_4 = n_1 * A_1^4 + n_2 * A_2^4 + n_3 * A_3^4 + n_4 * A_4^4
      
-Where we know the moments B_k from equation 11 (using Faa Di Bruno's equations of the nth logarithmic derivative.) and we want to solve for the values of A and n.<br>
+Where we know the moments B_k from equation 11 (in the code I used Faa Di Bruno's equations of the nth logarithmic derivative to compute B_k) and we want to solve for the values of A and n.<br>
 All the authors say is that "the solutions to these equations involve Vandermonde determinants" [2]<br><br>
 
 After some research, I implemented two methods that can be used to solve this type of system:<br><br>
