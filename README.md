@@ -14,7 +14,7 @@ This Jupyter notebook replicates the results presented in example A entitled "A.
 The paper details how a function can be approximated from the knowledge of its asymptotic expansion only.<br>
 Given a function f(x), of which all we know is its expansion:<br>
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x)=f_0\sum_{n=0}^{k}{a_n%20x^n}"/>(2)<br> 
-which is only valid for x->0, how can it be approximated for any value of x?<br>
+which is only valid for x->0, how can it be approximated for finite values of x?<br>
 The paper proposes to rewrite this expansion as:<br>
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;f_k^*(x)\approx%20f_0\prod_{p=1}^k{(1%20+A_{kp}x)^{n_{kp}}}" />(9)<br><br>
 
